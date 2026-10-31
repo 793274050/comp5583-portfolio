@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title">
+  <title id="title">Abstract car connected to vehicle documents</title>
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e2f2ee"/><stop offset="1" stop-color="#c6e3df"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#0e4945" flood-opacity=".15"/></filter></defs>
+  <rect width="640" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="320" cy="190" r="130" fill="#fff" opacity=".42"/>
+  <g fill="#fff" stroke="#7ab9aa" stroke-width="3" filter="url(#shadow)"><rect x="72" y="64" width="108" height="126" rx="12"/><rect x="463" y="52" width="108" height="126" rx="12"/></g>
+  <g stroke="#7ab9aa" stroke-width="7" stroke-linecap="round"><path d="M91 94h70M91 116h56M91 138h68M483 81h70M483 104h54M483 127h67"/></g>
+  <g fill="none" stroke="#087f72" stroke-width="5" stroke-linecap="round"><path d="M178 147l58 27M465 139l-57 30"/><circle cx="320" cy="190" r="114" opacity=".35"/></g>
+  <g filter="url(#shadow)"><path d="M170 223l27-61c8-18 24-29 45-29h157c21 0 37 11 45 29l27 61 18 13v42h-35v-14H186v14h-35v-42z" fill="#0a746b"/><path d="M223 165h194l20 49H203z" fill="#cfeee6"/><path d="M219 224h202" stroke="#fff" stroke-width="7" stroke-linecap="round"/><circle cx="215" cy="261" r="22" fill="#17383d"/><circle cx="425" cy="261" r="22" fill="#17383d"/></g>
+</svg>

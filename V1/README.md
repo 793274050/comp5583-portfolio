@@ -1,23 +1,11 @@
-# V1 Personal Portfolio
+# Ayden Yang — V1 portfolio
 
-This version starts from the frozen V0 and applies Technique 1: in-context learning. Two few-shot writing examples guided the revised visitor introduction and the Problem–Decision–Evidence–Reflection case-study structure.
+Open `index.html` in a browser. This is a static HTML/CSS/vanilla JavaScript site with no build step or backend.
 
-## Open locally
+V1 starts from the Task 1 restart V0 and adds an Experience timeline inspired by the supplied résumé screenshot's date-column pattern. It uses original colours, copy, cards, and code rather than copying the reference layout. The timeline lists Huawei's Intelligent Automotive Assistant (June–August 2026), the Business Travel Assistant (February–May 2026), and the JD Finance internship (June–August 2024), newest first.
 
-Open `index.html` directly in a modern browser, or serve this directory with any static HTTP server.
+The required Home, About, Projects, and Contact sections remain. The additional Experience section and its navigation link work in English and Chinese. Theme switching, the mobile menu, expandable project details, and the email contact option are preserved. Huawei benchmark numbers remain omitted because no verified values were supplied.
 
-## Required sections
+The final V1 uses a semantic start/end `<time>` pair for every date range and applies restrained bold emphasis only to a few method or evidence phrases. English and Chinese use separate phrase lists, and the emphasis is rebuilt when the language changes. Sticky-header anchor offsets, 44 px controls, visible keyboard focus, and reduced-motion behaviour are preserved across desktop and mobile layouts.
 
-- Home: display name, introduction, and navigation
-- About: education and interests
-- Projects: three projects with purpose and personal contribution
-- Contact: public email address
-
-## Interactions
-
-- Responsive navigation menu
-- Light and dark colour themes
-- Expandable project contributions
-- Reduced-motion support
-
-No build step, backend service, external library, API key, or login is required.
+The final Task 3 V1 prompt, three context examples, translated conversation, reference image, and implementation notes are in `../Task3/`. V1 was generated independently from V0 and does not use the RAG corpus or any V2 output.

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ayden Yang's case-study portfolio in AI agents, large language models, and data analysis."
+    />
+    <title>Ayden Yang | AI Agent Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Ayden Yang home">AY.</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch colour theme">
+            <span aria-hidden="true">◐</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="version-badge">V1 · CASE-STUDY EDITION</p>
+            <p class="eyebrow">AI SYSTEMS · DECISIONS · EVIDENCE</p>
+            <h1>I build AI systems around <span>real decisions.</span></h1>
+            <p class="hero-text">
+              I’m Ayden, an MSc student turning agent and data ideas into testable systems. These
+              short case studies show the problem, the decision I made, and what changed.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">Read the case studies</a>
+              <a class="button secondary" href="mailto:793274050@qq.com">Email me</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Agent system illustration">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="agent-core">
+              <span class="core-label">AGENT</span>
+              <strong>Plan</strong>
+              <strong>Reason</strong>
+              <strong>Act</strong>
+            </div>
+            <span class="node node-one">Memory</span>
+            <span class="node node-two">Tools</span>
+            <span class="node node-three">Data</span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about">Scroll to learn more ↓</a>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">ABOUT</p>
+            <h2>From information systems to agentic systems.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy reveal">
+              <p>
+                I’m Xiaojun Yang (Ayden), currently pursuing an MSc in Agentic AI Systems at The
+                Hong Kong Polytechnic University. My undergraduate training in Information
+                Management and Information Systems at South China Normal University built my
+                foundation in data, software, and business problem solving.
+              </p>
+              <p>
+                I am especially interested in AI agents, large language models, retrieval-augmented
+                generation, and data analysis. I enjoy turning experimental AI ideas into systems
+                that can be evaluated, improved, and used.
+              </p>
+              <div class="working-principles" aria-label="Working principles">
+                <p><span>01</span><strong>Start with the bottleneck.</strong> Define the behaviour that prevents the system from helping its user.</p>
+                <p><span>02</span><strong>Make one technical decision visible.</strong> Explain why a method fits the bottleneck.</p>
+                <p><span>03</span><strong>Measure the change.</strong> Pair outcomes with their status and limitations.</p>
+              </div>
+              <div class="tag-list" aria-label="Interests">
+                <span>AI Agents</span>
+                <span>Large Language Models</span>
+                <span>RAG</span>
+                <span>Data Analysis</span>
+                <span>Python</span>
+              </div>
+            </div>
+
+            <div class="timeline reveal" aria-label="Education timeline">
+              <article>
+                <p class="timeline-date">2026 — 2027</p>
+                <h3>MSc in Agentic AI Systems</h3>
+                <p>The Hong Kong Polytechnic University</p>
+              </article>
+              <article>
+                <p class="timeline-date">2022 — 2026</p>
+                <h3>Information Management and Information Systems</h3>
+                <p>South China Normal University · Bachelor’s degree</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Three cases. One question: what changed, and why?</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card featured reveal">
+              <div class="project-number">01</div>
+              <p class="project-type">AGENT SYSTEM · PROJECT</p>
+              <h3>Business Travel Assistant Agent</h3>
+              <p>
+                A multi-agent travel assistant that combines preference memory, enterprise
+                knowledge retrieval, real-time search, and itinerary generation.
+              </p>
+              <div class="case-strip">
+                <p><span>Problem</span>Serial routing missed compound requests and took about 30 seconds.</p>
+                <p><span>My decision</span>Combine semantic multi-intent routing with priority-aware parallel execution.</p>
+                <p><span>Evidence</span>Reported prototype: 65% to 90%+ intent accuracy; 30s to 15s response time.</p>
+              </div>
+              <ul class="metric-list" aria-label="Reported prototype metrics">
+                <li><strong>90%+</strong><span>intent accuracy</span></li>
+                <li><strong>15s</strong><span>response time</span></li>
+                <li><strong>85%</strong><span>cache hit rate</span></li>
+              </ul>
+              <button class="details-toggle" type="button" aria-expanded="false">
+                View contribution <span aria-hidden="true">+</span>
+              </button>
+              <div class="project-details" hidden>
+                <p>
+                  I redesigned intent routing for six intent categories, introduced priority-aware
+                  parallel scheduling, and built short- and long-term preference memory with Redis
+                  caching. I also developed a Milvus and BGE-M3 RAG pipeline for travel policies,
+                  city guides, and FAQs, with source-aware retrieval.
+                </p>
+                <p><strong>Reflection:</strong> The latency improvement is meaningful, but the reported prototype metrics still need a reproducible public test set.</p>
+                <p class="stack">Python · Multi-Agent Orchestration · Milvus · BGE-M3 · Redis · RAG</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-number">02</div>
+              <p class="project-type">AUTOMOTIVE AI · HUAWEI INTERNSHIP</p>
+              <h3>Intelligent Automotive Q&amp;A Assistant</h3>
+              <p>
+                A document-grounded assistant for car buying, driving, troubleshooting,
+                maintenance, and insurance questions, with multi-turn topic memory.
+              </p>
+              <div class="case-strip">
+                <p><span>Problem</span>Automotive answers must stay grounded in manuals and follow a user's current topic.</p>
+                <p><span>My approach</span>I combined a diverse instruction dataset, document RAG, conversation memory, and LoRA adaptation.</p>
+                <p><span>Evidence status</span>All stages were completed; measured comparison values have not been provided for publication.</p>
+              </div>
+              <div class="draft-result">
+                <span>Project scope</span>
+                <strong>Documents → RAG → LoRA</strong>
+                <small>Evaluation results to be added after a measured comparison</small>
+              </div>
+              <button class="details-toggle" type="button" aria-expanded="false">
+                View contribution <span aria-hidden="true">+</span>
+              </button>
+              <div class="project-details" hidden>
+                <p>
+                  I built a JSON instruction dataset with instruction, input,
+                  and output fields across direct answers, step-by-step guidance, fault analysis,
+                  terminology, and safety or insurance reminders. I built a RAG application using
+                  uploaded owner manuals, maintenance guides, diagnostic documents, and insurance
+                  terms for grounded multi-turn answers. I then applied LoRA adaptation to an
+                  open-source model and compared outputs before and after fine-tuning and RAG.
+                </p>
+                <p><strong>Reflection:</strong> The evaluation needs a fixed question set, source-grounding checks, and documented dataset provenance before outcome claims can be made.</p>
+                <p class="stack">Automotive documents · JSON dataset · RAG · Multi-turn memory · LoRA</p>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-number">03</div>
+              <p class="project-type">DATA ANALYSIS · INTERNSHIP</p>
+              <h3>Credit Overdue Risk Prediction</h3>
+              <p>
+                A risk-modelling workflow that joined transaction, order fulfilment, behaviour,
+                and text-derived features into a consistent analytical dataset.
+              </p>
+              <div class="case-strip">
+                <p><span>Problem</span>Risk signals were fragmented across structured records and free-text notes.</p>
+                <p><span>My decision</span>Build a unified feature table and add NLP-derived features before model iteration.</p>
+                <p><span>Evidence</span>LightGBM reached a reported ROC-AUC of 0.74 after feature and parameter iteration.</p>
+              </div>
+              <div class="single-metric">
+                <strong>0.74</strong>
+                <span>ROC-AUC after feature iteration and tuning</span>
+              </div>
+              <button class="details-toggle" type="button" aria-expanded="false">
+                View contribution <span aria-hidden="true">+</span>
+              </button>
+              <div class="project-details" hidden>
+                <p>
+                  During my data analyst internship at JD Finance, I used SQL and Excel for data
+                  extraction and cleaning, transformed unstructured notes into model features, and
+                  trained and tuned a LightGBM classifier in Python. I evaluated it with accuracy,
+                  F1-score, and ROC-AUC.
+                </p>
+                <p><strong>Reflection:</strong> ROC-AUC summarizes ranking quality, but deployment decisions would also require threshold, calibration, and fairness analysis.</p>
+                <p class="stack">Python · SQL · Excel · NLP · LightGBM</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">CONTACT</p>
+            <h2>Let’s discuss agents, LLM applications, or data-driven ideas.</h2>
+          </div>
+          <div class="contact-card reveal">
+            <p>The best way to reach me is by email.</p>
+            <a href="mailto:793274050@qq.com">793274050@qq.com</a>
+            <p class="contact-note">Based in Hong Kong · Open to academic and project conversations</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Ayden Yang</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

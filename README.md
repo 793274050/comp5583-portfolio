@@ -1,13 +1,7 @@
-# Ayden Yang portfolio versions
+# Website source and local preview
 
-The three folders are independent static websites. Open each `index.html` in a modern browser, or serve a folder with any static file server. No build, backend, account, or API key is required.
+`V0/`, `V1/`, and `V2/` are three separate static websites. Each version contains its own `index.html`, `styles.css`, `script.js`, and short README. V2 also contains its three local SVG project illustrations in `V2/assets/`. No build step, backend, package manager, or external runtime asset is needed.
 
-- `V0/`: baseline agent-generated portfolio. A later user factual correction to the Huawei project was applied consistently to all versions and recorded in `prompt_records/task1_v0.md`.
-- `V1/`: copy of V0 revised with two in-context writing examples. It adds repeated problem, decision, evidence, and reflection case-study sections.
-- `V2/`: separate copy of V0 revised from a small retrieved evidence collection. It adds source-status labels, retrieved technical details, and explicit evidence limits.
+Open `V0/index.html`, `V1/index.html`, or `V2/index.html` directly in a browser. Alternatively, from this `website/` directory, run `python -m http.server 8765` and visit `http://127.0.0.1:8765/V0/`, `/V1/`, or `/V2/`.
 
-The Huawei internship project is an Intelligent Automotive Q&A Assistant. The user confirmed completing the instruction dataset, vehicle-document RAG application with multi-turn memory, and LoRA adaptation. Its numerical model outcomes and final dataset count were not supplied and are not claimed on the public pages.
-
-## Publish
-
-For GitHub Pages, put the three folders in a public repository and enable Pages from the main branch at `/ (root)` if the repository root contains a landing `index.html`. Alternatively, publish each folder with an independent Pages source. Verify each URL in a private browsing window so the sites open without login.
+V0 is the frozen initial website. V1 was revised from V0 using in-context examples, with an Experience timeline. V2 was revised independently from V0 using evaluation-driven retrieval, with original project illustrations and scannable contribution details. Retrieval was used while creating V2; the deployed website itself is static. All three versions retain the required Home, About, Projects, and Contact content.

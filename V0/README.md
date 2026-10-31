@@ -1,23 +1,7 @@
-# V0 Personal Portfolio
+# Ayden Yang — V0 portfolio
 
-This folder contains the frozen baseline version of Ayden Yang's personal portfolio website for COMP5583.
+Open `index.html` in a browser. No build step, backend, package manager, or external asset is required.
 
-## Open locally
+The single page includes Home, About, Projects, and Contact; a mobile menu; persistent light/dark and English/Chinese controls; and native keyboard-accessible expandable project details. The language control translates visible copy and accessibility labels, updates the document language, and remembers the choice when local storage is available. It uses HTML, CSS, and vanilla JavaScript only.
 
-Open `index.html` directly in a modern browser, or serve this directory with any static HTTP server.
-
-## Required sections
-
-- Home: display name, introduction, and navigation
-- About: education and interests
-- Projects: three projects with purpose and personal contribution
-- Contact: public email address
-
-## Interactions
-
-- Responsive navigation menu
-- Light and dark colour themes
-- Expandable project contributions
-- Reduced-motion support
-
-No build step, backend service, external library, API key, or login is required.
+Huawei benchmark numbers are omitted because the provided figures were preliminary drafts and not verified final results. This V0 was generated from the Task 1 instruction without in-context examples, RAG retrieval during generation, or an external template.
